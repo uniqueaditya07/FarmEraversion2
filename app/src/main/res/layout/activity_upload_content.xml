@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <tools:LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        tools:context=".UploadContentActivity"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/blogEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Blog Text"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/videoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Video URL"
+            android:inputType="textUri"
+            android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/selectVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Video"
+        android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Content" />
+
+    </tools:LinearLayout>
