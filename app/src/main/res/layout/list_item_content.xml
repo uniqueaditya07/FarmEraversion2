@@ -11,13 +11,22 @@
         android:layout_height="wrap_content"
         android:text="Blog Content"
         android:textSize="16sp"
+        android:textColor="#FFFFFF"
         android:layout_marginBottom="8dp" />
 
     <TextView
         android:id="@+id/videoTextView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Video URL"
+        android:text="Watch Video"
+        android:textColor="#000000"
+        android:background="@drawable/white_rounded_button"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
         android:textSize="14sp"
-        android:textColor="#007BFF" />
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:layout_gravity="end" />  <!-- Align to the right -->
+
 </LinearLayout>
